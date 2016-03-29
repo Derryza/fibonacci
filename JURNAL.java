@@ -20,7 +20,7 @@ public class JURNAL {
         // TODO code application logic here
 
         Scanner input = new Scanner(System.in);
-		int num1=0,num2=1,sum;
+		int num1=0,num2=1,sum,sum2=0;
 		int count;
                 
 		System.out.println("Input :");
@@ -30,8 +30,10 @@ public class JURNAL {
 		sum=num1+num2; 
 		num1=num2; 
 		num2=sum; 
-		System.out.print(" "+num1); 
-		} 
+		sum2=num1+num2;
+		}
+                
+                System.out.print(" "+(sum2-1));
 		} 
     
 }
